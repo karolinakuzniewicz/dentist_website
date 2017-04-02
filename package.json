@@ -1,0 +1,32 @@
+{
+  "name": "Praktyka stomatologiczna Joanna Kuźniewicz",
+  "version": "1.0.0",
+  "description": "Strona internetowa prywatnej praktyki stomatologicznej.",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.0",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-uglify": "^2.0.0"
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karolinakuzniewicz/dentist_website.git"
+  },
+  "author": "Karolina Kuźniewicz",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "gulp-autoprefixer": "^3.1.0"
+  }
+}
