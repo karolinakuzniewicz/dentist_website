@@ -19,7 +19,7 @@ html, body{
 }
 
 a {
-	cursor: auto;
+	cursor: pointer;
 }
 
 p{
@@ -144,7 +144,7 @@ li.mail a:hover {
   border-color: #F8F8F8;
 }
 .banner{
-	background:url(../images/banner.jpg) no-repeat 0px 0px;
+	background:url(../images/dentist1.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -153,7 +153,7 @@ li.mail a:hover {
 	min-height:800px;
 }
 .banner1{
-	background:url(../images/banner.jpg) no-repeat 0px 0px;
+	background:url(../images/dentist1.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -267,7 +267,7 @@ li.mail a:hover {
 }
 .callbacks_container {
   position: relative;
-  float: left;
+  float: right;
   width: 100%;
 }
 .callbacks {
@@ -628,7 +628,6 @@ ul.social-slide li i.mac{
 }
 .banner-bottom-video-grid-rgt ul li a{
 	font-size: 16px;
-	text-transform: capitalize;
 	color:#000;
 	text-decoration:none;
 	transition:.5s all;
@@ -796,7 +795,7 @@ ul.social-slide li i.mac{
 	text-decoration:none;
 }
 .footer-grids {
-  padding-bottom: 2em;
+  /*padding-bottom: 2em;*/
   border-bottom: 1px solid #A6A0A0;
 }
 .footer-grds{
@@ -805,6 +804,7 @@ ul.social-slide li i.mac{
 .footer-grds ul li{
 	display:inline-block;
 	margin-right:10px;
+	color: #a3a3a3;
 }
 .footer-grds p{
 	color:#fff;
@@ -1721,8 +1721,9 @@ ul.sint {
 	  font-size: 22px;
 	  padding: 12px 29px;
 	}
+
 	.banner-info h1 {
-		font-size: 23px;
+		font-size: 22px;
 	}
 	.callbacks_tabs {
 		left: 45.3%;
@@ -1736,7 +1737,7 @@ ul.sint {
 	  min-height: 510px;
 	}
 	.banner-bottom-grid-left {
-	  float: none;
+	  float: inherit;
 	  width: 100%;
 	}
 	.banner-bottom-grid-right {
@@ -1745,7 +1746,7 @@ ul.sint {
 		top: 44.5%;
 	}
 	.banner-bottom {
-	  padding-bottom: 21em;
+	  padding-bottom: 2em;
 	}
 	.header-bottom-right ul li {
 		font-size: 15px;
@@ -1800,9 +1801,9 @@ ul.sint {
 	  float: left;
 	  width: 50%;
 	}
-	.footer-grid:nth-child(2) {
-		margin-bottom:12em;
-	}
+	/*.footer-grid:nth-child(2) {*/
+		/*margin-bottom:12em;*/
+	/*}*/
 	.contact-form h3, .gallery h3, h3.ghj, .about h3, .services-grid h3, .services-overview h3, .blog h3 {
 		font-size: 25px;
 	}
@@ -1931,9 +1932,7 @@ ul.sint {
 	  width: 95%;
 	  top: 38.7%;
 	}
-	.banner-bottom {
-	  padding-bottom: 23em;
-	}
+
 	.banner-bottom-video-grids {
 	  margin: 3em 0 2em;
 	}
@@ -2115,8 +2114,15 @@ ul.sint {
 	.mfp-hide iframe {
 	  min-height: 270px;
 	}
+	.featured-services p {
+			line-height:1.7em;
+			font-size:18px;
+			margin:0;
+			color:#181717;
+	}
+
 	.featured-services {
-	  padding: 2em 0 1em;
+		padding: 2em 0 1em;
 	}
 	.text-date {
 	  top: 6.4%;

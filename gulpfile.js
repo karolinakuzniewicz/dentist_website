@@ -45,12 +45,10 @@ gulp.task('minify-css',['css'],function(){
         .pipe(rename({suffix: '.min'}))
         .pipe(gulp.dest('./web/css/'));
 });
-//
-// gulp.task('minify-js',['js-vendor','js-app'],function(){
-//     return gulp.src('./web/js/*')
-//         .pipe(uglify())
-//         .pipe(gulp.dest('./web/js/'));
-// });
 
+gulp.task('favicon', function () {
+  return gulp.src('./favicons/*')
+      .pipe(gulp.dest('./web'))
+});
 
-gulp.task('default',['copy-png','minify-css'],function(){});
+gulp.task('default',['copy-png','minify-css', 'favicon'],function(){});

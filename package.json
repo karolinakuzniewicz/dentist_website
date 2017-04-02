@@ -1,7 +1,7 @@
 {
-  "name": "Praktyka stomatologiczna Joanna Kuźniewicz",
+  "name": "dentist_website",
   "version": "1.0.0",
-  "description": "Strona internetowa prywatnej praktyki stomatologicznej.",
+  "description": "Strona internetowa prywatnej praktyki stomatologicznej Joanna Kuźniewicz.",
   "main": "gulpfile.js",
   "devDependencies": {
     "gulp": "^3.9.0",
