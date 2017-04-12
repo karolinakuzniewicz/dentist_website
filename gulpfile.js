@@ -18,6 +18,7 @@ gulp.task('css', function() {
     }))
     .pipe(gulp.dest('./web/css'));
 });
+
 gulp.task('js-vendor', function(){
     return gulp.src([
             './bower_components/jquery/dist/jquery.js'
@@ -25,17 +26,10 @@ gulp.task('js-vendor', function(){
         .pipe(concat('vendor.js'))
         .pipe(gulp.dest('./web/js/'));
 });
-//
-// gulp.task('js-app',['js-vendor'], function(){
-//     return gulp.src('./js/app.js')
-//         .pipe(gulp.dest('./web/js/'));
-// });
 
 gulp.task('copy-png',function(){
     return gulp.src('./images').pipe(gulp.dest('./web/images'));
 });
-
-// gulp.task('copy-assets', 'copy-png', function(){});
 
 gulp.task('minify-css',['css'],function(){
     return gulp.src('./web/css/app.css')
