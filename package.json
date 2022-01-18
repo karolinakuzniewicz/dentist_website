@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Strona internetowa prywatnej praktyki stomatologicznej Joanna Kuźniewicz.",
   "main": "gulpfile.js",
+  "engines": {
+    "node": "4"
+  },
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-clean": "^0.3.2",
@@ -14,7 +17,7 @@
     "gulp-sass": "^2.1.0",
     "gulp-sourcemaps": "^2.2.0",
     "gulp-uglify": "^2.0.0",
-    "pdfjs-dist": "^1.8.183" ,
+    "pdfjs-dist": "^1.8.183",
     "fs": "^0.0.1-security"
   },
   "scripts": {
